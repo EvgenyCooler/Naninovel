@@ -1,0 +1,165 @@
+@set playerName="John"
+@set worldMapLocation=".Location2"
+
+@char Player.talk
+@char Player.Left
+
+@input playerName summary:"Enter your name."
+@stop
+
+# Location1
+
+@bgm location1
+@back Scene
+
+@char Jasmin.neutral
+@char Jasmin.Right
+
+@print "Hi! What is your name?" author:Jasmin
+
+@print "You can call me {playerName}" author:{playerName}
+
+@char Jasmin.talk
+
+Jasmin: Welcome, my dear {playerName}. I have a very important assignment for you.
+
+Jasmin: Somewhere nearby is a very valuable object. If you bring it to me, I'll be your queen! But I don't know exactly where it is. I'll have to check with that nasty Black Rose.
+
+@showPrinter Quest
+@print "<color=green>Quest 1:</color> Find a very valuable item that Jasmine told me about:\n" printer:Quest
+@print "- Find out from Black Rose exactly where the very valuable item is.\n" printer:Quest
+
+@hide Jasmin
+
+# Location2
+
+@bgm location2
+@back bg1.RadialBlur
+
+@stopBgm location1 wait:false
+
+@char BlackRose.neutral
+@char BlackRose.Right visible:true
+@print "Hey, handsome! What do you want?" author:BlackRose printer:Dialogue
+
+@print "They say you know the exact location of a very valuable item." author:{PlayerName} printer:Dialogue
+@print "I know. But I'll only tell you where this valuable object is when you pass a very difficult test! Are you ready?" author:BlackRose printer:Dialogue
+@print "I'm ready!" author:{PlayerName} printer:Dialogue
+
+@set moveCount=0
+@set gameTime=0
+
+@minigame "Memory game!"
+
+@print "You are unbelievably cool! The test took {gameTime} seconds and {moveCount} moves." author:BlackRose printer:Dialogue
+
+@print "Make good on your promise - where is this very valuable item?" author:{PlayerName} printer:Dialogue
+
+@print "I know you were probably sent by that smug Jasmine. But I'll keep my promise - what you're looking for is in Location 3." author:BlackRose printer:Dialogue
+
+@showPrinter Quest
+@print "- A very valuable item is located in Location 3 according to Black Rose.\n" printer:Quest
+
+@hide BlackRose
+
+@bgm location3
+@back bg2.RadialBlur
+
+
+#Map
+@hidePrinter Quest
+
+@worldMap worldMapLocation summary:"Choose location" playOnSubmit:true isInteractableLocation1:false isInteractableLocation2:false isInteractableLocation3:true
+@stop
+;@goto {worldMapLocation}
+
+
+;# Location1
+;@back Location1
+;Welcome to Location1
+;@goto .Map
+
+;# Location2
+;@back Location2
+;Welcome to Location2
+;@goto .Map
+
+# Location3
+@back Location3 visible:true
+
+@char Player.talk visible:true
+@char Player.Left
+
+@choice handler:ButtonArea button:MapButtons/InteractableObject pos:620,80 goto:.GetGift
+@stop
+
+#GetGift
+
+@char InteractableObject.opened pos:82,40
+
+@showPrinter Quest
+@print "- A very valuable item found is the Crown. Back to Jasmine.\n" printer:Quest
+
+@bgm location2
+@back bg1.RadialBlur
+
+
+ 
+@print "A very valuable item. I can see why Jasmine would want it. Black Rose will probably want it, too." author:{playerName} printer:Dialogue
+
+@showPrinter Quest
+@print "- Decide who to give the crown to.\n" printer:Quest
+
+@stopBgm location2 wait:false
+
+@bgm location1
+@back Scene
+
+@char Player.Center
+@char InteractableObject.opened pos:50,15,-1 
+@char Jasmin.Left
+@char Jasmin.neutral
+
+@char BlackRose.Right
+@char BlackRose.neutral
+
+@print "Oh, I'm so glad you brought this value to me!" author:Jasmin printer:Dialogue
+@print "Don't give it to her, you better give it to me!" author:BlackRose printer:Dialogue
+
+@choice "Give the crown to Jasmine" goto:.JasminCrown 
+@choice "Give the crown to BlackRose" goto:.BlackRoseCrown
+@choice "Keep the crown" goto:.KeepCrown
+@stop
+
+
+#JasminCrown
+@char Jasmin.happy
+@char BlackRose.angry
+@char InteractableObject.opened pos:15,15,-1 
+@print "I'm very happy!" author:Jasmin printer:Dialogue
+@print "You're an asshole!" author:BlackRose printer:Dialogue
+@goto .QuestDone
+@stop
+
+#BlackRoseCrown
+@char Jasmin.angry
+@char BlackRose.happy
+@char InteractableObject.opened pos:87,15,-1
+@print "You're an asshole!" author:Jasmin printer:Dialogue
+@print "I'm very happy!" author:BlackRose printer:Dialogue
+@goto .QuestDone
+@stop
+
+#KeepCrown
+@char Jasmin.angry
+@char BlackRose.angry
+@print "I'm gonna keep this crown." author:{playerName} printer:Dialogue
+@print "You're an asshole!" author:Jasmin printer:Dialogue
+@print "You're a BIG asshole!" author:BlackRose printer:Dialogue
+@goto .QuestDone
+@stop
+
+#QuestDone
+@showPrinter Quest
+@print "<color=green>Quest 1: DONE</color>\n" printer:Quest
+@stop

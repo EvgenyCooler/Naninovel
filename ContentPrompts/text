@@ -1,0 +1,15 @@
+Young attractive woman, blonde with short hair, wearing a blouse and midi skirt, neutral facial expression, standing in a relaxed pose, detailed, high quality, photorealistic, soft lighting, white background, studio lighting, isolated, no shadows
+Young attractive woman, blonde with short hair, wearing a blouse and midi skirt, smiling facial expression, standing in a relaxed pose, detailed, high quality, photorealistic, soft lighting, white background, studio lighting, isolated, no shadows
+//Young attractive woman, blonde with short hair, wearing a blouse and midi skirt, talk facial expression, standing in a relaxed pose, detailed, high quality, photorealistic, soft lighting, white background, studio lighting, isolated, no shadows
+Young attractive woman, blonde with short hair, wearing a blouse and midi skirt, happy facial expression, standing in a relaxed pose, detailed, high quality, photorealistic, soft lighting, white background, studio lighting, isolated, no shadows
+Young attractive woman, blonde with short hair, wearing a blouse and midi skirt, angry facial expression, standing in a relaxed pose, detailed, high quality, photorealistic, soft lighting, white background, studio lighting, isolated, no shadows
+
+
+Young attractive woman, blonde with short hair, wearing a white blouse and beige midi skirt, angry facial expression, standing in a relaxed pose, detailed, high quality, photorealistic, direct front lighting, white background, isolated, no shadows
+
+@set moveCount = 1
+@set gameTime = 0
+
+@eval MiniGameService.StartMiniGameAsync(moveCount, gameTime)
+
+The game took {gameTime} seconds and {moveCount} moves.

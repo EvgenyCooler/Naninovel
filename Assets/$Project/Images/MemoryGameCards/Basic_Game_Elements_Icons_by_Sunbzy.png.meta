@@ -1,0 +1,630 @@
+fileFormatVersion: 2
+guid: b6c645584301f6341b3e447f1fd47047
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5438955370878502219
+    second: Basic_Game_Elements_Icons_by_Sunbzy_0
+  - first:
+      213: 1152396359609941156
+    second: Basic_Game_Elements_Icons_by_Sunbzy_1
+  - first:
+      213: -2567340934638983796
+    second: Basic_Game_Elements_Icons_by_Sunbzy_2
+  - first:
+      213: 8791485401427702589
+    second: Basic_Game_Elements_Icons_by_Sunbzy_3
+  - first:
+      213: 7475723320668621786
+    second: Basic_Game_Elements_Icons_by_Sunbzy_4
+  - first:
+      213: -3314696609675889522
+    second: Basic_Game_Elements_Icons_by_Sunbzy_5
+  - first:
+      213: 2529699255838153726
+    second: Basic_Game_Elements_Icons_by_Sunbzy_6
+  - first:
+      213: -7875868801950951807
+    second: Basic_Game_Elements_Icons_by_Sunbzy_7
+  - first:
+      213: -8512181551498080158
+    second: Basic_Game_Elements_Icons_by_Sunbzy_8
+  - first:
+      213: -8724342281940836691
+    second: Basic_Game_Elements_Icons_by_Sunbzy_9
+  - first:
+      213: -7702053245457445144
+    second: Basic_Game_Elements_Icons_by_Sunbzy_10
+  - first:
+      213: -1886346992133414997
+    second: Basic_Game_Elements_Icons_by_Sunbzy_11
+  - first:
+      213: 7568573588848877008
+    second: Basic_Game_Elements_Icons_by_Sunbzy_12
+  - first:
+      213: 5266911780840475008
+    second: Basic_Game_Elements_Icons_by_Sunbzy_13
+  - first:
+      213: -8555141206327903996
+    second: Basic_Game_Elements_Icons_by_Sunbzy_14
+  - first:
+      213: 5760117342660719360
+    second: Basic_Game_Elements_Icons_by_Sunbzy_15
+  - first:
+      213: 6956244866270334688
+    second: Basic_Game_Elements_Icons_by_Sunbzy_16
+  - first:
+      213: -4983503873320784918
+    second: Basic_Game_Elements_Icons_by_Sunbzy_17
+  - first:
+      213: -7075551585379845386
+    second: Basic_Game_Elements_Icons_by_Sunbzy_18
+  - first:
+      213: 6860033411538854546
+    second: Basic_Game_Elements_Icons_by_Sunbzy_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2012
+        width: 496
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba759138e2f484b0800000000000000
+      internalID: -5438955370878502219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_1
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 2028
+        width: 295
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acf00722622eff00800000000000000
+      internalID: 1152396359609941156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_2
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1977
+        width: 433
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c852685b509fe5cd0800000000000000
+      internalID: -2567340934638983796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_3
+      rect:
+        serializedVersion: 2
+        x: 2538
+        y: 2016
+        width: 403
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d337120b461a10a70800000000000000
+      internalID: 8791485401427702589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_4
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 2014
+        width: 352
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb8e8780ca1fb760800000000000000
+      internalID: 7475723320668621786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1345
+        width: 383
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84b31adef4dff1d0800000000000000
+      internalID: -3314696609675889522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_6
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1342
+        width: 348
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb9dccf11c4b1320800000000000000
+      internalID: 2529699255838153726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_7
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 1334
+        width: 349
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186d1228d0b43b290800000000000000
+      internalID: -7875868801950951807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_8
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 1333
+        width: 328
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260d2577af7aed980800000000000000
+      internalID: -8512181551498080158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_9
+      rect:
+        serializedVersion: 2
+        x: 3386
+        y: 1335
+        width: 407
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daedef90be8ece680800000000000000
+      internalID: -8724342281940836691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 682
+        width: 431
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee4d57616fcc1590800000000000000
+      internalID: -7702053245457445144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_11
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 673
+        width: 416
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafd2caa76952d5e0800000000000000
+      internalID: -1886346992133414997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_12
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 673
+        width: 365
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd9dbb3499f80960800000000000000
+      internalID: 7568573588848877008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_13
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 697
+        width: 423
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08901500c54d71940800000000000000
+      internalID: 5266911780840475008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_14
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 674
+        width: 296
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409b4816668064980800000000000000
+      internalID: -8555141206327903996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 369
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003fbd9643c00ff40800000000000000
+      internalID: 5760117342660719360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_16
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 17
+        width: 406
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee8da0a9db898060800000000000000
+      internalID: 6956244866270334688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_17
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 3
+        width: 395
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb6ee581a907dab0800000000000000
+      internalID: -4983503873320784918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_18
+      rect:
+        serializedVersion: 2
+        x: 2538
+        y: 20
+        width: 406
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa7b7b22579ecd90800000000000000
+      internalID: -7075551585379845386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Game_Elements_Icons_by_Sunbzy_19
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 0
+        width: 370
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292a512ba0cb33f50800000000000000
+      internalID: 6860033411538854546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
